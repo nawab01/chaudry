@@ -1,0 +1,64 @@
+body {
+	background-image: url("images/bg2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	width: 100%;
+
+}
+p {
+	color: red;
+	font-family: helvetica;
+	font-size: 50px;
+	position: absolute;
+	margin-right: 100%;
+	border: 2px solid red;
+	padding: 5px 10px;
+	margin-bottom: 100px;
+	margin-top: 300px;
+	cursor: pointer;
+	
+}
+
+h3 {
+	font-family: helvetica;
+	padding-left: 40px;
+}
+
+#board {
+
+	margin-top: 150px;
+	margin-left: 360px;
+	margin-right: 240px;
+	margin-bottom: 20px;
+	width: 600px;
+	height: 500px; 
+	cursor: pointer;
+	
+}
+.time{
+	position: fixed;
+}
+.tile {
+
+	position: relative;
+	float: left;
+	padding: 10px;
+
+}
+
+.tile > img {
+	width: 115px;
+	height: 115px;
+}
+
+.cover {
+	position: absolute;
+	top:0px;
+	left:0px;
+	z-index: 1000px;
+	padding: 10px;
+}
+.hide {
+	visibility:hidden;
+}
