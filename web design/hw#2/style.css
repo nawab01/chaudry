@@ -1,0 +1,23 @@
+body {
+	background-color: #333;
+	margin: 0px 200px;
+}
+span {
+	color: red;
+}
+h1 {
+	background-color: white;
+	padding-left: 40%;
+	font-family: arial black;
+	font-size: 44px;
+	color:#222;
+}
+p {
+	font-family: helvetica;
+	word-spacing: 5px;
+	
+	font-size: 31px;
+	background-color: white;
+	padding: 20px;
+	line-height: 50px;
+}

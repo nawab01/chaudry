@@ -1,0 +1,22 @@
+body {
+background-color: #666;
+margin: 0px 100px;
+
+}
+h1 {
+	background-color: white;
+	padding-left: 40%;
+	font-family: avenir light;
+	color: black;
+}
+h5 {
+	padding-right: 90%;
+	color: #555
+	font-family: arial italic;
+}
+p {
+	font-family: avenir light;
+	
+	background-color: white;
+	
+}
